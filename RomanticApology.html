@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Heartfelt Apology</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #ff9a9e, #fecfef);
+            color: #333;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #e91e63;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .heart {
+            color: #e91e63;
+            font-size: 50px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <h1>My Dearest Love,</h1>
+        <p>I know I've hurt you, and I'm truly sorry. Words can't undo the pain, but I hope this gesture shows how much you mean to me.</p>
+        <p>You're my everything – my sunshine, my laughter, my forever. I promise to cherish you, listen more, and love you deeper every day.</p>
+        <p>Please forgive me. Let's create more beautiful memories together.</p>
+        <p>With all my love,<br>Priyanshu</p>
+        <div class="heart">❤️</div>
+    </div>
+    <script>
+        // Simple romantic effect
+        document.addEventListener('DOMContentLoaded', function() {
+            const hearts = document.querySelectorAll('.heart');
+            hearts.forEach(heart => {
+                heart.addEventListener('click', function() {
+                    alert('I love you more than words can say!');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
